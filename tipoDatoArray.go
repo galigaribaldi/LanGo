@@ -55,6 +55,7 @@ func main() {
 	fmt.Println("Arrays")
 	imprimeArray()
 	fmt.Println("Slides (lsitas)")
+	fmt.Println("Slides (lsitas)")
 	imprimeSlides()
 	imprimeMatrices()
 }
