@@ -2,18 +2,20 @@ package arrays
 
 import "fmt"
 
+/*
+	Cuidado con no llamar a los paquetes con los nombres
+	de las librerias creadas
+*/
+// ImprimeArray Muestra como se trabaja con arrays y matrices en GO
 func ImprimeArray() {
 	var array1 [2]string
 	array1[0] = "Hola"
 	array1[1] = "Mundo"
-	//array1[2] = "Error"
 	fmt.Println("Tamaño del arreglo: ", len(array1))
 	fmt.Println(array1)
 	///
 	array4 := [4]int{1, 2, 3, 4}
 	fmt.Println(array4)
-	///
-	//var arrayVacio []int
 	var matriz [2][2]string
 	matriz[0][0] = "Hola"
 	matriz[0][1] = "Mimdo"
@@ -27,7 +29,7 @@ func ImprimeArray() {
 	fmt.Println(matriz22)
 }
 
-///Slices o bien las listas
+///ImprimeSlides Miestra como se trabaja con slides con GO
 func ImprimeSlides() {
 	var slice1 []string
 	slice1 = append(slice1, "Hola")

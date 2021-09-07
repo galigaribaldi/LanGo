@@ -1,18 +1,11 @@
-package main
+package operacionesstrings
 
 import (
 	"fmt"
 	"strings"
-	"github.com/galigaribaldi/cursoGo/Intermedio/arrays"
 )
 
-func main() {
-	//reemplazoStrings()
-	comparacionStrings()
-	//arrays.ImprimeArray()
-	//arrays.ImprimeSlides()
-}
-func reemplazoStrings() {
+func ReemplazoStrings() {
 	var texto = "Hola Go, Hola mundo, hola sr"
 	fmt.Println(texto)
 	///Mayuscula
@@ -26,7 +19,7 @@ func reemplazoStrings() {
 	var texto3 = (strings.Replace(texto, "Hola", "Adios", -1))
 	fmt.Println(texto3)
 }
-func comparacionStrings() {
+func ComparacionStrings() {
 	var texto12 = "Hola Go, Hola mundo, hola sr"
 	fmt.Println(texto12)
 	//Devuelve -1 Si son diferentes
