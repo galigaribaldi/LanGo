@@ -1,16 +1,32 @@
 package calculadora
 
-// Calculadora = son los Atributos
+// Calculadora
 type Calculadora struct {
-	operandoA int
-	operandoB int
-	operandoC int
+	OperandoA int
+	OperandoB int
+	OperandoC int
 }
 
-//Metodos Obtener Numero de casa
-func (c Calculadora) Suma() {
+//Suma Metodo para sumar los elementos A y B, retorna el operando C
+func (c Calculadora) Suma() int {
+	return c.OperandoA + c.OperandoB
+}
 
-	c.operandoC := c.operandoA + c.operandoB
-	return c.operandoC
+//Resta Metodo para restar los elementos A y B, retorna el operando C
+func (c Calculadora) Resta() int {
+	return c.OperandoA - c.OperandoB
+}
 
+//Multiplicacion Metodo para mulriplicar los elementos A y B, retorna el operando C
+func (c Calculadora) Multiplicacion() int {
+	return c.OperandoA * c.OperandoB
+}
+
+//Division Metodo para Dividir los elementos A y B, retorna el operando C, si marca, error este lo avisa
+func (c Calculadora) Division() int {
+	if c.OperandoB <= 0 {
+		return 0
+	} else {
+		return c.OperandoA / c.OperandoB
+	}
 }
