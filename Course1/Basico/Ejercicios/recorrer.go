@@ -1,17 +1,6 @@
-/*
-	1.- Recorrer una cadena con un For
-	2.- Recorrer un arreglo de strings con un arreglo For
-	3.- Recorrer un arreglo de Int con un for
-*/
-package main
+package ejercicios
 
 import "fmt"
-
-func main() {
-	//arregloCadena("Cadena2")
-	//listasArrayStrings()
-	listasArraysInt()
-}
 
 func arregloCadena(cadena string) {
 	fmt.Println("Tener cuidado de agregar la palabra 'string()' para recorrer")

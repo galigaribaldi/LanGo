@@ -1,8 +1,9 @@
-package main
+package utilKit
 
 import "fmt"
 
-func main() {
+// condicionalesIf Condicionales con If
+func condicionalesIf() {
 	if numero := getNumero(); numero%5 == 0 {
 		fmt.Println("Es Multiplo de 5")
 
@@ -11,10 +12,9 @@ func main() {
 	} else {
 		fmt.Println("No es multiplo de 3 ni de 5")
 	}
-	switch1()
-	switch2()
 }
 
+//getNumero Obtener un numero
 func getNumero() int {
 	var numero = 0
 	fmt.Println("Ingresa un numero: ")
@@ -22,6 +22,7 @@ func getNumero() int {
 	return numero
 }
 
+//Switch1 con solo casos "case"
 func switch1() int {
 	numero := getNumero()
 	switch numero {
@@ -36,6 +37,8 @@ func switch1() int {
 		return 0
 	}
 }
+
+//Switch2 con casos "case" con condicionales lógicas
 func switch2() {
 	numero := getNumero()
 	switch {

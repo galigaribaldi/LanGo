@@ -1,4 +1,4 @@
-package main
+package utilKit
 
 import "fmt"
 
@@ -51,7 +51,8 @@ func imprimeMatrices() {
 	matriz2 = append(matriz2, row2)
 	fmt.Println(matriz2)
 }
-func main() {
+
+func tipoDatoArray() {
 	fmt.Println("Arrays")
 	imprimeArray()
 	fmt.Println("Slides (lsitas)")

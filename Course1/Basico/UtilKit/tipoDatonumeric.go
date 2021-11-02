@@ -1,4 +1,4 @@
-package main
+package utilKit
 
 import "fmt"
 
@@ -8,7 +8,7 @@ Unsigned = uint (valores mas grandes) de 32 bits
 int64 = int64
 */
 
-func getMultipleValues() (int, int32, int64) {
+func getMultipleValues2() (int, int32, int64) {
 	return 1, 23113111, 3
 }
 
@@ -20,11 +20,11 @@ func getMultipleValues() (int, int32, int64) {
 func getDecimal() (float32, float64) {
 	return float32(0.1), float64((float32(0.1)))
 }
-func main() {
+func tipoDatoNumeric() {
 	var (
-		a, b, c = getMultipleValues()
+		a, b, c = getMultipleValues2()
 	)
-	fmt.Printf("Int normal: %s, Int de 32: %s, Int de 64: %s", a, b, c)
+	fmt.Printf("Int normal: %v, Int de 32: %v, Int de 64: %v", a, b, c)
 	fmt.Println("")
 	decimal32, deccimal64 := getDecimal()
 	fmt.Println(decimal32, deccimal64)

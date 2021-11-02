@@ -1,4 +1,4 @@
-package main
+package utilKit
 
 import "fmt"
 
@@ -19,7 +19,7 @@ func suma(a int, b int, c int) int {
 func suma2(a int, b int) int {
 	return a + b
 }
-func main() {
+func ActionFunction() {
 	name := getName()
 	fmt.Println(name)
 	x, y, z := getMultipleValues()
