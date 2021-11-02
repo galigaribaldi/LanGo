@@ -1,4 +1,4 @@
-package maps
+package paquetes1
 
 //GetMap Retorna un objeto de tipo Dicccionario o Mapa
 func GetMap() map[string]int {

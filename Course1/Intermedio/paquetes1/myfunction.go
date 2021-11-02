@@ -1,4 +1,4 @@
-package funcionesoperaciones
+package paquetes1
 
 import "errors"
 

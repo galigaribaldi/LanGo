@@ -1,4 +1,4 @@
-package calculadora
+package paquetes1
 
 // Calculadora
 type Calculadora struct {

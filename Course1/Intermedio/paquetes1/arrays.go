@@ -1,4 +1,4 @@
-package arrays
+package paquetes1
 
 import "fmt"
 
@@ -6,8 +6,8 @@ import "fmt"
 	Cuidado con no llamar a los paquetes con los nombres
 	de las librerias creadas
 */
-// ImprimeArray Muestra como se trabaja con arrays y matrices en GO
-func ImprimeArray() {
+// imprimeArray Muestra como se trabaja con arrays y matrices en GO
+func imprimeArray() {
 	var array1 [2]string
 	array1[0] = "Hola"
 	array1[1] = "Mundo"
@@ -29,8 +29,8 @@ func ImprimeArray() {
 	fmt.Println(matriz22)
 }
 
-///ImprimeSlides Miestra como se trabaja con slides con GO
-func ImprimeSlides() {
+///imprimeSlides Miestra como se trabaja con slides con GO
+func imprimeSlides() {
 	var slice1 []string
 	slice1 = append(slice1, "Hola")
 	fmt.Println(slice1)
